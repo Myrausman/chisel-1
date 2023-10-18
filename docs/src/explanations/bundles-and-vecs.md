@@ -25,7 +25,7 @@ class ModuleWithFloatWire extends RawModule {
 }
 ```
 
-You can create literal Bundles using the experimental [Bundle Literals](../appendix/experimental-features#bundle-literals) feature.
+You can create literal Bundles using the experimental [Bundle Literals](https://github.com/chipsalliance/chisel/blob/b83e63d21e1f1cd7f6d61b0ffd93dae60c74cade/docs/src/appendix/experimental-features.md#bundle-literals) feature.
 
 Scala convention is to name classes using UpperCamelCase, and we suggest you follow that convention in your Chisel code.
 
