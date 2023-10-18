@@ -25,7 +25,7 @@ class ModuleWithFloatWire extends RawModule {
 }
 ```
 
-You can create literal Bundles using the experimental [Bundle Literals](https://github.com/chipsalliance/chisel/blob/b83e63d21e1f1cd7f6d61b0ffd93dae60c74cade/docs/src/appendix/experimental-features.md#bundle-literals) feature.
+You can create literal Bundles using the experimental [Bundle Literals](../appendix/experimental-features#bundle-literals) feature.
 
 Scala convention is to name classes using UpperCamelCase, and we suggest you follow that convention in your Chisel code.
 
@@ -66,7 +66,7 @@ Note that the builtin Chisel primitive and aggregate classes do not
 require the `new` when creating an instance, whereas new user
 datatypes will.  A Scala `apply` constructor can be defined so
 that a user datatype also does not require `new`, as described in
-[Function Constructor](../explanations/functional-module-creation).
+[Function Constructor](https://github.com/Myrausman/chisel-1/blob/main/docs/src/explanations/functional-module-creation.md).
 
 ### Flipping Bundles
 
